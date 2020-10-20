@@ -40,7 +40,7 @@ By changing our branching workflow to a no-push-to-master workflow, we can achie
 # Detailed design
 [design]: #detailed-design
 
-In GitHubs [branch protection](https://github.com/NixOS/nixpkgs/settings/branch_protection_rules) rules, branch protection rules which require pull request reviews, include administrators, forbid force pushes and branch deletions must be created.
+In GitHub's [branch protection](https://github.com/NixOS/nixpkgs/settings/branch_protection_rules) rules, branch protection rules which require pull request reviews, include administrators, forbid force pushes and branch deletions must be created.
 There must be rules for:
 - master
 - nixos-*
@@ -58,7 +58,7 @@ When pushing to a protected branch directly, they get the same message as everyo
 
 It might break the workflow of some committers which are only a small portion of the community.
 
-Also, Pull Requests might take a bit of time before they are approved by somebody else, which should't matter too much since the trust in committers is already very high and their Pull Requests are likely to be merged fast.
+Also, Pull Requests might take a bit of time before they are approved by somebody else, which shouldn't matter too much since the trust in committers is already very high and their Pull Requests are likely to be merged fast.
 
 # Alternatives
 [alternatives]: #alternatives
